@@ -35,6 +35,7 @@ public class MercuryTsTest
   		+ "able to login into Mercury Tours Application by using valid username and password")
   public void loginWithValidds1()
   {
+	  System.out.println("update in github");
 	  System.out.println("loginwithValidds1 method under Test");
 	  driver.findElement(By.xpath("//input[@name='userName']")).sendKeys("aarti3");       //aarti4 
 	  driver.findElement(By.xpath("//input[@name='password']")).sendKeys("p@ss3");   //p@ss4
